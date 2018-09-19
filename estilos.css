@@ -2,3 +2,48 @@ body{
 	font-family: 'Roboto', sans-serif;
 	background-image: url("img/background.png");
 }
+#container{
+	margin:	auto;
+	width: 940px;
+}
+#titulo1{
+	height: 134px;
+	width: 130px;
+	display: block;
+	text-indent: ‐9999px;
+	background-image: url("img/logo_GK.png");
+	margin-left: 40px;
+}
+#titulo2{
+	border-bottom: 2px solid #333333;
+	margin-top: 30px;
+	font-size: 1.2em;
+}
+#centro-distribuicao{
+	background-color: #F2EDED;
+	border-bottom: 1px solid #333333;
+	align-items: center;
+	padding: 15px;
+	margin: 30px;
+	border-bottom-width: 0px;
+	width: 600px;
+	margin-left: 150px;
+	height: 386px;
+}
+figcaption{
+	margin-top: 10px;
+	padding-top: 366px;
+	text-align: center;
+}
+p{
+	margin-top: 15px;
+	padding-left: 45px;
+	padding-right: 45px;
+	line-height: 1.5em;
+}
+#centro-distribuicao img{
+	position: absolute;
+	width: 550px;
+	margin-left: 30px;
+
+}
