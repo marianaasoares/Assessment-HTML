@@ -1,0 +1,191 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	background-image: url("img/background.png");
+}
+#container{
+	margin:	auto;
+	width: 940px;
+}
+#apagar{
+	display: none;
+}
+a {
+	color: #333333;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+#titulo1{
+	height: 134px;
+	width: 130px;
+	display: block;
+	text-indent: ‐9999px;
+	background-image: url("img/logo_GK.png");
+	margin-left: 40px;
+}
+#titulo2{
+	border-bottom: 2px solid #333333;
+	margin-top: 30px;
+	font-size: 1.2em;
+}
+#centro-distribuicao{
+	background-color: #F2EDED;
+	border-bottom: 1px solid #333333;
+	align-items: center;
+	padding: 15px;
+	margin: 30px;
+	border-bottom-width: 0px;
+	width: 600px;
+	margin-left: 150px;
+	height: 386px;
+}
+#cap-cent{
+	margin-top: 10px;
+	padding-top: 366px;
+	text-align: center;
+}
+p{
+	margin-top: 15px;
+	padding-left: 45px;
+	padding-right: 45px;
+	line-height: 1.5em;
+}
+#centro-distribuicao img{
+	position: absolute;
+	width: 550px;
+	margin-left: 30px;
+
+}
+#titulo-historia{
+	border-bottom: 2px solid #333333;
+}
+#familia-teles{
+	float: right;
+	padding: 10px;
+}
+#titulo-diferenciais{
+	border-bottom: 2px solid #333333;
+}
+#lista-diferenciais{
+	line-height: 1.8;
+}
+
+#logo-rodape{
+	margin-left: 30px;
+}
+footer {
+	background-image: url("img/fundo-rodape.png");
+	clear: both;
+	margin: 30px 0px 30px 0px;
+}
+
+footer .caixa-footer {
+	position: relative;
+	color: #ccc;
+}
+
+.social {
+	position: absolute;
+	top: 12px;
+	right: 0;
+}
+
+.social li {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.social li a {
+	height: 32px;
+	width: 32px;
+	display: block;
+	text-indent: -99999px;  
+}
+
+.social a[href*="facebook"] {
+	background-image: url("img/facebook.png");
+}
+
+.social a[href*="twitter"] {
+	background-image: url("img/twitter.png");
+}
+
+.social a[href*="plus"] {
+	background-image: url("img/google.png");
+}
+/* CSS PARA INDEX */
+header{
+	position: relative;
+}
+.sacola{
+	background-image: url("img/sacola.png");
+	background-repeat: no-repeat;
+	text-align: right;
+	width: 140px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.menu-principal{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 15px;
+	text-decoration-line: none;
+}
+.menu-principal li {
+	display: inline;
+	margin-left: 20px;
+}
+.menu-opcoes a {
+	color: #444;
+}
+.menu-opcoes a:hover {
+	color: #333;
+}
+.busca, .menu-departamentos{
+	background-color: #dcdcdc;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-right: 10px;	
+	width: 230px;
+	float: left;
+}
+.menu-departamentos{
+	clear: left;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+.busca h2, .busca form, .menu-departamentos h2 {
+	margin: 10px;
+	text-decoration-line: underline;
+}
+.busca{
+	border-radius: 10px 10px 0 0;
+}
+.busca input[type='search']{
+	width: 170px;
+	height: 25px;
+	border-radius: 10px;
+}
+.caixa-destaque{
+	margin-top: 10px;
+}
+.menu-departamentos li{
+	list-style: none;
+	background-color: white;
+	margin-bottom:1px;
+	padding: 5px;
+
+}
+.menu-departamentos a{
+	color: gray;
+	text-decoration-line: none;
+}
+.menu-departamentos li ul{
+	display: none;
+}
+.menu-departamentos li:hover, ul{
+	display:block;
+}
