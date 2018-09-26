@@ -1,3 +1,4 @@
+/*HERANÇA DE TODAS AS PÁGINAS*/
 body{
 	font-family: 'Roboto', sans-serif;
 	background-image: url("img/background.png");
@@ -24,6 +25,7 @@ a:hover{
 	background-image: url("img/logo_GK.png");
 	margin-left: 40px;
 }
+/*SOBRE*/
 #titulo2{
 	border-bottom: 2px solid #333333;
 	margin-top: 30px;
@@ -70,7 +72,7 @@ p{
 #lista-diferenciais{
 	line-height: 1.8;
 }
-
+/*RODAPÉ*/
 #logo-rodape{
 	margin-left: 30px;
 }
@@ -84,7 +86,7 @@ footer .caixa-footer {
 	position: relative;
 	color: #ccc;
 }
-
+/*IMAGENS SOCIAL*/
 .social {
 	position: absolute;
 	top: 12px;
@@ -102,7 +104,7 @@ footer .caixa-footer {
 	display: block;
 	text-indent: -99999px;  
 }
-
+/*LINKS SOCIAL*/
 .social a[href*="facebook"] {
 	background-image: url("img/facebook.png");
 }
@@ -118,6 +120,7 @@ footer .caixa-footer {
 header{
 	position: relative;
 }
+/*SACOLA*/
 .sacola{
 	background-image: url("img/sacola.png");
 	background-repeat: no-repeat;
@@ -127,6 +130,7 @@ header{
 	top: 0;
 	right: 0;
 }
+/*MENU PRINCIPAL HORIZONTAL*/
 .menu-principal{
 	position: absolute;
 	bottom: 0;
@@ -138,12 +142,7 @@ header{
 	display: inline;
 	margin-left: 20px;
 }
-.menu-departamentos li {
-	background-color: #444;
-}
-.menu-departamentos li:hover {
-	background-color: #333;
-}
+/*ALINHAMENTO DO MENU LATERAL "DEPARTAMENTOS" E BUSCA*/
 .busca, .menu-departamentos{
 	background-color: #dcdcdc;
 	font-weight: bold;
@@ -160,6 +159,19 @@ header{
 .menu-departamentos ul{
 	padding-left: 0px;
 }
+/*HOVER MENU LATERAL "DEPARTAMENTOS"*/
+.menu-departamentos li ul{
+	display: none;
+
+}
+.menu-departamentos li:hover ul {
+	display: block;
+
+}
+.menu-departamentos ul ul li {
+	background-color: #dcdcdc;
+}
+/*PARTE DE BUSCA*/
 .busca h2, .busca form, .menu-departamentos h2 {
 	margin: 10px;
 	text-decoration-line: underline;
@@ -175,6 +187,7 @@ header{
 .caixa-destaque{
 	margin-top: 10px;
 }
+/*MENU LATERAL DE "DEPARTAMENTOS"*/
 .menu-departamentos li{
 	list-style: none;
 	background-color: white;
@@ -198,6 +211,7 @@ header{
  content: '\272A';
  padding-right: 3px;
 }
+/*PAINEIS COM AS IMAGENS DAS ROUPAS*/
 .caixa-paineis{
 margin-top: 20px;
 }
@@ -212,6 +226,10 @@ margin-top: 20px;
   content: '\2756';
   padding-right: 5px;
   opacity: 0.4;
+}
+
+.painel ol {
+	padding-left: 0;	
 }
 .novidades {
   float: left;
@@ -258,7 +276,7 @@ margin-top: 20px;
   text-decoration: none;
   position: relative;
 }
-.painel figure,.painel figcaption{
+.painel figure, .painel figcaption{
   margin: 0;
   padding: 0;
 }
