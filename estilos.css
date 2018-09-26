@@ -189,7 +189,7 @@ header{
 .menu-departamentos li ul{
 	display: none;
 }
-.menu-departamentos li:hover ul{display: block;} {
+.menu-departamentos li:hover ul{display: block}; {
 }
 .menu-departamentos li li a:before {
  content: '\272A';
