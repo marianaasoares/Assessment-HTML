@@ -1,0 +1,217 @@
+﻿ASSESSMENT 
+  
+FRONT END 
+
+
+  
+HTML 
+
+
+
+
+Thais Viana
+  
+  
+Mariana Soares dos Santos 
+  
+
+
+
+
+28 de setembro de 2018 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+  
+1) Quando é recomendando a criação de um site separado para mobile? Seria este o caso deste site da GK Fashion?
+        É recomendado fazer um site mobile reparado quando há muito elementos como portais, quando é uma loja virtual ou quando dependem de uma navegação muito específica. Como o site da GK Fashion é uma loja virtual então seria recomendado fazer uma versão mobile. 
+
+
+2) No caso de um CSS específico para print, como ele deve ser inserido?
+        Existem 2 formas de serem inseridos: 
+
+
+        1- Criar colocar um link no <head> do HTML referenciando o print.
+
+
+<!-- CSS para impressão -->
+<link rel="stylesheet" type="text/css" href="/print.css" media="print" />
+
+
+2- Ou através de media types que necessariamente precisa estar no final da página principal do CSS.
+/*CSS para impressão*/
+@media print {
+}
+3) O elemento audio permite como elemento‐filho o elemento source. Quais são os atributos que o source permite e qual conteúdo eles suportam? Quais os outros atributos do elemento audio e quando devem ser utilizados?
+O elemento Source troca que tem como finalidade substituir o atributo src e permitir formatos alternativos para o som a ser servido, admitindo os seguintes atributos:
+src
+	Endereço do arquivo de mídia a incorporar e é obrigatório.
+	type
+	Informa ao navegador o tipo de mídia, para que possa decidir o que fazer. Permite ainda o parâmetro codecs.
+	media
+	Destina-se a informar ao navegador o tipo de mídia.
+	
+
+e suportam os webm, ogg, mp3 e wav. 
+Os outros elementos de <audio> são: 
+* Além do SRC - especifica a URL do áudio; 
+* Preload - Especifica se e como o autor acha que o áudio deve ser carregado quando a página é carregada;
+* Autoplay - Especifica que o áudio começará a ser reproduzido assim que estiver pronto;
+* Loop - Especifica que o áudio será iniciado novamente, toda vez que terminar ;
+* Controls -  Especifica que os controles de áudio devem ser exibidos (como um botão de reprodução / pausa, etc.);
+4) O elemento vídeo permite como elemento‐filho o elemento source. Quais são os atributos que o source permite e qual conteúdo eles suportam? Quais os outros atributos do elemento video e quando devem ser utilizados?
+Atributos do elemento <source>: src, type e media.
+Conteúdo suportados por <source>: webm, ogg, mp4. 
+Atributos do elemento <vídeo> são:
+* ·                 autoplay: usando para que o vídeo inicie automaticamente;
+   * buffered: determina os intervalos de carregamento do vídeo;
+   * controls: aplica controles para que os usuários possam controlar o vídeo;
+   * width: define a largura de exibição do vídeo;
+   * height: define altura de exibição do vídeo;
+*               loop: executa o vídeo infinitamente;
+   * muted: estabelece que o vídeo iniciará sem som;
+   * played: indica que o todo o vídeo já foi executado;
+   * preload: indica para o browser de que forma e em qual momento deverá ser feita a requisição do vídeo serão carregados para o usuário;
+   * poster: indica uma imagem prévia a ser exibida até que o usuário execute o vídeo;
+   * src: a url do vídeo a ser executado.
+5) No caso do canvas, HTML 5 nunca, em momento algum, fez qualquer animação. Isso porquê o HTML 5 é uma simples linguagem de marcação. Dessa forma, o que é necessário para criar animações com HTML5? O que são APIs do HTML5?
+Como HTML é uma linguagem de marcação então pode ser uma animação através de JavaScript e um pouco com CSS. APIs são funções encapsuladas que poderão ser acessadas através de JavaScript.
+6) Como o CSS3 pode ser aplicado na aparência da multimídia HTML5.   Demonstre com um exemplo.
+HTML
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Áudio</title>
+</head>
+<body>
+        <figure id="figaudio1">
+                <img id="imghorse" width="200"src="http://upload.wikimedia.org/wikipedia/commons/d/d4/Nokota_Horses.jpg"alt = "a horse"/>
+                        <figcaption id="figcptionaudio1"> Press Play to hear the horse!
+                                <audio controls="controls">
+                                        <sourcesrc="https://dl.dropboxusercontent.com/u/1631516/horse.ogg"type="audio/ogg" />
+                                        <sourcesrc="https://dl.dropboxusercontent.com/u/1631516/horse.mp3"type="audio/mp3" />
+<p>Your browser does not support the audio element. 12. Download the audio/video in</p>
+                                                        <ahref=”https://dl.dropboxusercontent.com/u/1631516/horse.ogg”>OGG</a>
+                                                <ahref=”https://dl.dropboxusercontent.com/u/1631516/horse.mp3”>MP3</a>
+                                                format.
+                                </audio>
+                        </figcaption>
+        </figure>
+</body>
+</html>
+CSS
+html {
+ font-family: sans-serif;
+}
+
+span,
+div em {
+ padding: 5px;
+ border: 1px solid green;
+ display: inline-block;
+ margin-bottom: 3px;
+}
+
+.primeiro span:nth-child(2n+1),
+.segundo span:nth-child(2n+1),
+.terceiro span:nth-of-type(2n+1) {
+ background-color: lime;
+}
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BIBLIOGRAFIA
+
+
+
+
+
+
+https://tableless.com.br/dicas-de-css-para-impressao/
+https://www.rgbcomunicacao.com.br/blog/qual-e-melhor-versao-mobile-ou-site-responsivo.html
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child
+Moodle
